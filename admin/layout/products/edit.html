@@ -1,0 +1,31 @@
+<div class="content-wrapper">
+    <h3>Sửa sản phẩm</h3>
+    <form>
+        <div class="mb-3">
+          <label  class="form-label">Tên</label>
+          <input type="text" class="form-control" ng-model="productObj.name" >
+        </div>
+    
+        <div class="mb-3">
+          <label  class="form-label">Ảnh</label>
+          <input type="text" class="form-control" ng-model="productObj.image">
+        </div>
+
+        <div class="mb-3">
+          <label  class="form-label">Giá</label>
+          <input type="text" class="form-control" ng-model="productObj.price">
+        </div>
+
+        <div class="mb-3">
+          <label  class="form-label">Giá sale</label>
+          <input type="text" class="form-control" ng-model="productObj.sale_price">
+        </div>
+    
+        <div class="mb-3">
+            <label  class="form-label">Danh mục</label>
+            <input type="text" class="form-control" ng-model="productObj.category" >
+          </div>
+      
+        <button ng-click = "updateProduct()" class="btn btn-primary">Sửa</button>
+      </form>
+</div>

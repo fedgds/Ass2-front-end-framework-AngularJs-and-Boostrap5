@@ -1,0 +1,40 @@
+<section class="vh-100" style="margin-top: 150px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8 px-0 d-none d-sm-block text-center">
+            <img src="assets/img/bg-image.jpg"
+              alt="Register image" class="h-75" style="object-fit: cover; object-position: right;">
+        </div>
+        <div class="col-sm-4 text-blac mt-5">
+  
+          <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+  
+            <form style="width: 23rem;" ng-submit="register()" name="registerForm" novalidate>
+              <h2 class="fw-normal mb-3 pb-3 text-center" style="letter-spacing: 1px;">Register</h2>
+            
+              <div class="form-outline mb-4" ng-class="{'has-error': registerForm.email.$invalid && !registerForm.email.$pristine}">
+                  <label class="form-label">Email address</label>
+                  <input type="email" class="form-control form-control-lg" ng-model="email" name="email" required />
+                  <div ng-show="registerForm.email.$invalid && !registerForm.email.$pristine" class="help-block">Nhập vào email nào.</div>
+              </div>
+            
+              <div class="form-outline mb-4" ng-class="{'has-error': registerForm.password.$invalid && !registerForm.password.$pristine}">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control form-control-lg" ng-model="password" name="password" required />
+                  <div ng-show="registerForm.password.$invalid && !registerForm.password.$pristine" class="help-block">Nhập vào mật khẩu nào.</div>
+              </div>
+            
+              <div class="pt-1 mb-4">
+                  <button class="btn btn-info btn-lg btn-block" type="submit" ng-disabled="registerForm.$invalid">Register</button>
+              </div>
+            
+              <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
+              <p>Already have an account? <a href="#!/login" class="link-info">Login here</a></p>
+            </form>     
+  
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
