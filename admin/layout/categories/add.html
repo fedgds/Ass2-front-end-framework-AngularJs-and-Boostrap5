@@ -1,11 +1,12 @@
-<div class="content-wrapper">
+<div class="content-wrapper" ng-controller="AddCategoryController">
     <h3>Thêm mới danh mục</h3>
     <form>
         <div class="mb-3">
-          <label  class="form-label">Tên</label>
-          <input type="text" class="form-control" ng-model="name" >
+          <label class="form-label">Tên</label>
+          <input type="text" class="form-control" ng-model="name">
+          <span ng-show="!name" class="text-danger">Tên không được để trống</span>
         </div>
       
-        <button ng-click = "addCategory()" class="btn btn-primary">Thêm</button>
+        <button ng-click = "addCategory()" class="btn btn-primary" ng-disabled="!name">Thêm</button>
       </form>
 </div>

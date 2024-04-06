@@ -6,7 +6,7 @@
       "price": "29",
       "sale_price": "19",
       "image": "product-1.jpg",
-      "category": "Rau củ"
+      "category": "Rau Củ"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "price": "25",
       "sale_price": "15",
       "image": "product-2.jpg",
-      "category": "Trái cây"
+      "category": "Trái Cây"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "price": "20",
       "sale_price": "12",
       "image": "product-3.jpg",
-      "category": "Rau củ"
+      "category": "Rau Củ"
     },
     {
       "id": "4",
@@ -30,15 +30,15 @@
       "price": "19",
       "sale_price": "11",
       "image": "product-4.jpg",
-      "category": "Trái cây"
+      "category": "Trái Cây"
     },
     {
-      "id": "5",
       "name": "Dưa chuột",
       "price": "12",
       "sale_price": "8",
       "image": "product-5.jpg",
-      "category": "Trái cây"
+      "category": "Trái Cây",
+      "id": "5"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "price": "5",
       "sale_price": "3",
       "image": "product-6.jpg",
-      "category": "Rau củ"
+      "category": "Rau Củ"
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "price": "9",
       "sale_price": "7",
       "image": "product-7.jpg",
-      "category": "Rau củ"
+      "category": "Rau Củ"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "price": "12",
       "sale_price": "9",
       "image": "product-8.jpg",
-      "category": "Trái cây"
+      "category": "Trái Cây"
     }
   ],
   "categories": [
@@ -75,8 +75,16 @@
       "name": "Trái Cây"
     },
     {
-      "id": "b6e1",
-      "name": "ll"
+      "name": "lll",
+      "id": "b6e1"
+    },
+    {
+      "id": "ae8e",
+      "name": "ok"
+    },
+    {
+      "name": "ok",
+      "id": "9c04"
     }
   ],
   "account": [

@@ -17,7 +17,7 @@
             <td>{{list.name}}</td>
             <td>
                 <a href="#!category/edit/{{list.id}}"  class="btn btn-sm btn-primary">Sửa</a>
-                <button class="btn btn-sm btn-danger" ng-click="onClickDelete(list.id)">Xóa</button>
+                <button class="btn btn-sm btn-danger" ng-click="onClickDelete(list.id)" ng-if="!list.hasProducts">Xóa</button>
             </td>
         </tr>
     </tbody>
